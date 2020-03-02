@@ -19,7 +19,19 @@ Using Selenium, Selenium requires a driver to interface with the chosen browser.
  
 Based on the names of the attractions, we want to grab the geological location coordinates and address. In order to grab the neccessary details, we will be using the geocoding API from google. In order to use the Geocoding API, you must have an API key. For more information how to request an API key, follow this [link](https://developers.google.com/maps/documentation/geocoding/get-api-key)
 
+<h4> Part 4: Sampling </h4>
 
+<p> There are many ways to sample the list of attractions one wants to go. Sample a number of attractions you want to go, you may filter based on the ratings, reviews of the attractions or include certain attractions that you may want to visit during your trip. </p>
+
+<h4> Part 5: Clustering </h4>
+
+Based on the number of attractions and the number of days you will be spending at a city of your desire, we will perform clusters to perform the most optimal schedule. We will be using the following clustering algorithms.
+- Kmeans
+- DBSCAN
+- HDBSCAN
+- Hierarchy clustering
+
+<p> By using multiple clustering algorithms, we can see what points belong to what clusters and depending on our time schedule, we can choose to prefer one algorithm over another. </p>
 
 
 
