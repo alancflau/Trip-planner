@@ -9,7 +9,7 @@ Do you love travelling? Do you procrastinate while scheduling your travel plans?
 
 <p>The script will retrieve data of the user's city attractions, ratings, categories, reviews, and a description of the attraction. The data will be represented in a dataframe.</p>
 
-<p> Using Selenium, Selenium requires a driver to interface with the chosen browser. The chosen browser is based on a person's preference. For more information how installation drivers, please visit this [link](https://selenium-python.readthedocs.io/installation.html).</p>
+Using Selenium, Selenium requires a driver to interface with the chosen browser. The chosen browser is based on a person's preference. For more information how installation drivers, please visit this [link](https://selenium-python.readthedocs.io/installation.html).
 
 <h4> Part 2: Data Manipulation </h4>
 
