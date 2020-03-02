@@ -5,7 +5,7 @@ Do you love travelling? Do you procrastinate while scheduling your travel plans?
 <h3> How it works </h3>
 
 <h4> Part 1: Retrieving data </h4>
-We will be retrieving data from [google travel](https://www.google.com/search?client=firefox-b-d&sxsrf=ACYBGNS5D-TqcccpH4QA4VQuluFU92TEaQ%3A1583122697057&ei=CYlcXpCNA-amggfvxLS4Dw&q=github+adding+a+title+to+the+link+in+paragraph&oq=github+adding+a+title+to+the+link+in+paragraph&gs_l=psy-ab.3..33i160.94046.95249..95373...0.2..0.145.1373.7j6......0....1..gws-wiz.......0i71j33i22i29i30j33i21.5WLfRJycIX4&ved=0ahUKEwjQtfnP9_rnAhVmk-AKHW8iDfcQ4dUDCAo&uact=5). The driver.py module already provides the implementation of web scraping. The function inside the module, google_search, takes in one parameter that takes in a location. When calling the module, the user will call this function and enter a city location they are interested in going as one of the parameters.
+We will be retrieving data from [google travel](asdf). The driver.py module already provides the implementation of web scraping. The function inside the module, google_search, takes in one parameter that takes in a location. When calling the module, the user will call this function and enter a city location they are interested in going as one of the parameters.
 
 <p>The script will retrieve data of the user's city attractions, ratings, categories, reviews, and a description of the attraction. The data will be represented in a dataframe.</p>
 
