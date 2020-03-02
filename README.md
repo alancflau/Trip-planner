@@ -12,7 +12,7 @@ We will be retrieving data from [GitHub](http://github.com). The driver.py modul
 Using Selenium, Selenium requires a driver to interface with the chosen browser. The chosen browser is based on a person's preference. For more information how installation drivers, please visit this [link](https://selenium-python.readthedocs.io/installation.html).
 
 <h4> Part 2: Data Manipulation </h4>
-
+[GitHub](http://github.com)
 <p> There are some duplicate rows in the dataframe because attractions may belong into different categories. The script scrapes data based on categories; therefore some attractions will have duplicates. We will be manipulating the data such that there are no duplicates and when an attraction is shown, it will show all the possible categories it belongs. Some regular expression will be modified for cleaner representation.
   
 <h4> Part 3: Feature Engineering </h4>
