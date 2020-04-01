@@ -8,7 +8,7 @@ Do you love travelling? Do you procrastinate while scheduling your travel plans?
 <p> We will be retrieving data from google travels. The driver.py module already provides the implementation of web scraping. The function inside the module, google_search, takes in one parameter that takes in a location. When calling the module, the user will call this function and enter a city location they are interested in going as one of the parameters. 
 
 Here is how to use the driver.py module:
-![GitHub Logo](/Screen Shot 2020-04-01 at 4.48.20 PM.png)
+![GitHub Logo](Images/driver_example.png)
 
 </p>
 
