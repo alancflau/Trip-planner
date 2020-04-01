@@ -6,7 +6,11 @@ import time
 import pandas as pd
 
 def google_search(location):
-    #text = input("Where would you like to go? ")
+    """ Webscrapes data from google travel of your destination
+    
+    Params:
+    location: the destination of your choice
+    """
     text = location
 
     driver = webdriver.Chrome()
@@ -19,10 +23,10 @@ def google_search(location):
     search.send_keys(text)
     search.send_keys(Keys.RETURN)
 
-    time.sleep(5)
-    driver.implicitly_wait(20)
-
-    submit_button = driver.find_element_by_xpath('//*[@id="ow3"]/div[3]/div[2]/div/div[3]/card-carousel/div/div/a')
+    #time.sleep(5)
+    driver.implicitly_wait(10)
+    #submit_button = driver.find_element_by_xpath('//*[@id="ow3"]/div[3]/div[2]/div/div[3]/card-carousel/div/div/a')
+    submit_button = driver.find_element_by_class_name("rgrDvf")
     submit_button.click()
 
     url = driver.current_url
@@ -61,6 +65,8 @@ def google_search(location):
 
     counter = 0
     for link in urls:
+        time.sleep(5)
+        
         driver.get(link)
         content = driver.page_source
         soup = BeautifulSoup(content, 'html5lib')    
